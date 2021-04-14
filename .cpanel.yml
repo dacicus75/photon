@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/landerwe/public_html/
+    - /bin/cp -R * $DEPLOYPATH
+    
