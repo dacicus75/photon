@@ -1,7 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/landerwe/portfolio.dantechwebdesign.com/repositories/photon
-     - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp -R * $DEPLOYPATH
+    - export DEPLOYPATH=/home/landerwe/public_html/portfolio.dantechwebdesign/
+    - /bin/cp -R html5up-photon $DEPLOYPATH
     
