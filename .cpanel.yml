@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/landerwe/public_html/dantechwebdesign.com
+    - export DEPLOYPATH=/home/landerwe/portfolio.dantechwebdesign.com/repositories/photon
     - /bin/cp -R * $DEPLOYPATH
     
