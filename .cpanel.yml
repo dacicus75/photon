@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/landerwe/public_html/
+    - export DEPLOYPATH=/home/landerwe/public_html/dantechwebdesign.com
     - /bin/cp -R * $DEPLOYPATH
     
